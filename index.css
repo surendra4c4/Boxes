@@ -1,0 +1,62 @@
+/* Write your code here. */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 100vh;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: "Roboto";
+  font-size: 25px;
+}
+
+.boxes-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 50%;
+}
+
+.small-box {
+  background-color: #fbbf24;
+  color: #ffffff;
+  font-family: "Bree Serif";
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+}
+
+.medium-box {
+  background-color: #38bdf8;
+  color: #ffffff;
+  font-family: "Bree Serif";
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+}
+
+.large-box {
+  background-color: #ec4899;
+  color: #ffffff;
+  font-family: "Bree Serif";
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+}
